@@ -1,0 +1,3 @@
+[submodule "pcb_data/kicad_library/external/OPL_Kicad_Library"]
+	path = pcb_data/kicad_library/external/OPL_Kicad_Library
+	url = https://github.com/Seeed-Studio/OPL_Kicad_Library.git
