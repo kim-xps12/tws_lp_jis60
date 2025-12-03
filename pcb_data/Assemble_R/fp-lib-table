@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Kailh_PG1353_Hotswap")(type "KiCad")(uri "${KIPRJMOD}/../kicad_library/external/MX_V2/Kailh_PG1353_Hotswap.pretty")(options "")(descr ""))
+  (lib (name "Seeed Studio XIAO Series Library")(type "KiCad")(uri "${KIPRJMOD}/../kicad_library/external/OPL_Kicad_Library/Seeed Studio XIAO Series Library")(options "")(descr ""))
+  (lib (name "kbd_Parts")(type "KiCad")(uri "${KIPRJMOD}/../kicad_library/external/KiCAD_FootPrint/kbd_Parts")(options "")(descr ""))
+  (lib (name "custom-library")(type "KiCad")(uri "${KIPRJMOD}/../kicad_library/custom-library.pretty")(options "")(descr ""))
+)
