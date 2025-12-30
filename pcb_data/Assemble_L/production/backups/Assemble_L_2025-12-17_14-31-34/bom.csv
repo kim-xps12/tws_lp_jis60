@@ -1,8 +1,0 @@
-﻿Designator,Footprint,Quantity,Value,LCSC Part #
-"D0-1, D0-2, D0-3, D0-4, D1-0, D1-2, D1-3, D1-4, D2-0, D2-1, D2-3, D2-4, D3-0, D3-1, D3-2, D3-4, D4-0, D4-1, D4-2, D4-3, D5-0, D5-1, D5-2, D5-3, D5-4, D6-0, D6-1, D6-2, D6-3, D6-4, D6-5, DI0, DI1, DI2, DI3, DI4, DI5, DS0, DS1, DS2, DS3, DS4, DS5",Diode_TH_SMD,43,1N4148W,
-RC0-1,Kailh-PG1353-Hotswap-L-1.5U,1,SW_Push,
-RC0-2,Kailh-PG1353-Hotswap-L-1.75U,1,SW_Push,
-RC0-3,Kailh-PG1353-Hotswap-L-2U,1,SW_Push,
-"RC0-4, RC1-0, RC1-2, RC1-3, RC1-4, RC2-0, RC2-1, RC2-3, RC2-4, RC3-0, RC3-1, RC3-2, RC3-4, RC4-0, RC4-1, RC4-2, RC4-3, RC5-0, RC5-1, RC5-2, RC5-3, RC5-4, RC6-0, RC6-1, RC6-2, RC6-3, RC6-4",Kailh-PG1353-Hotswap-L-1U,27,SW_Push,
-RC6-5,Kailh-PG1353-Hotswap-L-1.25U,1,SW_Push,
-U1,XIAO-nRF52840-DIP,1,XIAO-nRF52840,
