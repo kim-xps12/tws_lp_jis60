@@ -504,7 +504,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "Assemble_R-backups/Assemble_R.dsn",
-      "step": "",
+      "step": "Top_R.step",
       "svg": "",
       "vrml": ""
     },

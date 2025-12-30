@@ -504,7 +504,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Assemble_L.step",
+      "step": "Top_L.step",
       "svg": "",
       "vrml": ""
     },
