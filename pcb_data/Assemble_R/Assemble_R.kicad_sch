@@ -8239,7 +8239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Seeed Studio XIAO Series Library:XIAO-nRF52840-DIP"
+		(property "Footprint" "mcu:xiao-ble-smd-cutout"
 			(at 232.41 80.264 0)
 			(effects
 				(font
