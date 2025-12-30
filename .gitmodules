@@ -4,3 +4,6 @@
 [submodule "pcb_data/kicad_library/external/KiCAD_FootPrint"]
 	path = pcb_data/kicad_library/external/KiCAD_FootPrint
 	url = https://github.com/Salicylic-acid3/KiCAD_FootPrint.git
+[submodule "pcb_data/kicad_library/external/kleeb"]
+	path = pcb_data/kicad_library/external/kleeb
+	url = git@github.com:kim-xps12/kleeb.git
