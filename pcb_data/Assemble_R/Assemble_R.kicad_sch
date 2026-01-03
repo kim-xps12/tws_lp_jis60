@@ -8734,6 +8734,15 @@
 				(hide yes)
 			)
 		)
+		(property "Component Class" "CastellatedModule"
+			(at 234.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "94f9047f-c09e-48d0-ad7f-20b01ae81d3b")
 		)
