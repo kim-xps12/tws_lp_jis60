@@ -4,4 +4,5 @@
   (lib (name "Seeed Studio XIAO Series Library")(type "KiCad")(uri "${KIPRJMOD}/../kicad_library/external/OPL_Kicad_Library/Seeed Studio XIAO Series Library")(options "")(descr ""))
   (lib (name "kbd_Parts")(type "KiCad")(uri "${KIPRJMOD}/../kicad_library/external/KiCAD_FootPrint/kbd_Parts")(options "")(descr ""))
   (lib (name "custom-library")(type "KiCad")(uri "${KIPRJMOD}/../kicad_library/custom-library.pretty")(options "")(descr ""))
+  (lib (name "mcu")(type "KiCad")(uri "${KIPRJMOD}/../kicad_library/external/kleeb/mcu.pretty")(options "")(descr ""))
 )
