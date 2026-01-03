@@ -9854,6 +9854,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 190.5 120.65)
+		(size 88.9 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00c97faf-ae4d-48b3-a796-b44579b27cf0")
+		(property "Sheetname" "MountingHoles"
+			(at 190.5 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MountingHoles.kicad_sch"
+			(at 190.5 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Assemble_L"
+				(path "/e3283b87-c43c-4022-8f4a-8d39acdeb3e4"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
