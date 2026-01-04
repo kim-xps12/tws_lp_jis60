@@ -35368,7 +35368,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "GRM32EC81C476KE15L"
 			(at 0 -2.3 0)
 			(layer "B.Fab")
 			(uuid "97b73d9d-b0f9-4e44-8a93-ea2c767df16c")
