@@ -7063,7 +7063,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "GRM32EC81C476KE15L"
 			(at 221.488 88.9 0)
 			(effects
 				(font
