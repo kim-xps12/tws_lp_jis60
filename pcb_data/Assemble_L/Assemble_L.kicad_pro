@@ -188,7 +188,8 @@
       ],
       "track_widths": [
         0.0,
-        0.5
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -651,6 +652,10 @@
     [
       "e3283b87-c43c-4022-8f4a-8d39acdeb3e4",
       "Root"
+    ],
+    [
+      "00c97faf-ae4d-48b3-a796-b44579b27cf0",
+      "MountingHoles"
     ]
   ],
   "text_variables": {}

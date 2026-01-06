@@ -139,7 +139,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -504,7 +504,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "Assemble_R-backups/Assemble_R.dsn",
-      "step": "",
+      "step": "Assemble_R.step",
       "svg": "",
       "vrml": ""
     },
@@ -651,6 +651,10 @@
     [
       "38d74f02-042c-4f1b-a14f-ae40b0d0e57e",
       "Root"
+    ],
+    [
+      "53965d01-7eda-474a-abf7-46af31237215",
+      "MountingHoles"
     ]
   ],
   "text_variables": {}
