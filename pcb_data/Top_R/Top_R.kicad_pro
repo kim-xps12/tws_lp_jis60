@@ -465,7 +465,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Assemble_R.kicad_pro",
+    "filename": "Top_R.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -503,8 +503,8 @@
       "netlist": "",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "Assemble_R-backups/Assemble_R.dsn",
-      "step": "Assemble_R.step",
+      "specctra_dsn": "Top_R-backups/Top_R.dsn",
+      "step": "Top_R.step",
       "svg": "",
       "vrml": ""
     },
