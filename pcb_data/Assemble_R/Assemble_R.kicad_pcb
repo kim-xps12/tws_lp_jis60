@@ -13344,7 +13344,7 @@
 		(at 235.743948 80.367255)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
-		(property "Reference" "H7"
+		(property "Reference" "H8"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
 			(uuid "dd43e812-fadb-477a-ae26-434bff7c9056")
@@ -14436,7 +14436,7 @@
 		(at 130.96886 105.370401)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
-		(property "Reference" "H8"
+		(property "Reference" "H7"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
 			(uuid "0cb4bde8-9c14-4e48-ac62-cd6324f2ad54")
