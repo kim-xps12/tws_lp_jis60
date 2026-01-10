@@ -117,7 +117,7 @@
 		)
 	)
 	(net 0 "")
-	(footprint "kbd_Hole:m2_Spacer_Hole"
+	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
 		(uuid "0d8ab867-5b1a-4fa2-b30e-2992c6e4e796")
 		(at 207.168924 67.270369)
@@ -145,7 +145,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -157,7 +157,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -183,18 +183,18 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "f1ebb88e-a8c4-49db-b443-2ba26f18cd21")
+			(uuid "e2f4fda5-1f57-470a-86da-841e58b34b9c")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 2.3 0)
+			(end 2.45 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "27ffdc2a-7f68-4e76-b757-760ed40ec474")
+			(uuid "2ca68720-eac3-4e7c-9b0d-ecf9ba746621")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0.3 0 0)
@@ -209,14 +209,14 @@
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
-			(size 4.5 4.5)
-			(drill 4.3)
+			(size 2.2 2.2)
+			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "e2768aa1-cb3a-4281-a989-3a00df4fff67")
+			(uuid "3ba0c36f-1f35-440a-802c-a0c19c3014c3")
 		)
 		(embedded_fonts no)
 	)
-	(footprint "kbd_Hole:m2_Spacer_Hole"
+	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
 		(uuid "4f0ac1cd-ef96-484c-8fab-729d1c47fcda")
 		(at 207.168924 123.825104)
@@ -244,7 +244,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -256,7 +256,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -282,18 +282,18 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "45a6bded-3291-4475-a68a-2d63b20a7d37")
+			(uuid "601dbe71-981c-4666-98b7-59738de676f4")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 2.3 0)
+			(end 2.45 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "500fd315-0429-449d-b7b5-125a68d65c84")
+			(uuid "f4704443-f462-4fea-9780-4ca1a2bc735c")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0.3 0 0)
@@ -308,20 +308,20 @@
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
-			(size 4.5 4.5)
-			(drill 4.3)
+			(size 2.2 2.2)
+			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "47c33fae-5c91-4fc2-ab59-456bb2edcf9b")
+			(uuid "3ae7b322-f2a8-4848-8767-ea19edc84264")
 		)
 		(embedded_fonts no)
 	)
-	(footprint "kbd_Hole:m2_Spacer_Hole"
+	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
 		(uuid "4fb9850f-5ed7-47c4-8f76-e0b9403ec81f")
 		(at 235.743948 80.367255)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
-		(property "Reference" "H7"
+		(property "Reference" "H8"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
 			(uuid "dd43e812-fadb-477a-ae26-434bff7c9056")
@@ -343,7 +343,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -355,7 +355,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -381,18 +381,18 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "8fc3f389-6085-467b-b3d8-d4635d41b444")
+			(uuid "507c6e1e-fb20-497c-bbaa-5f38183ed14e")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 2.3 0)
+			(end 2.45 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "3fc58b15-e795-4c20-a60a-6f974db405eb")
+			(uuid "af4227da-ad11-404b-8bf7-844b30e36bc7")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0.3 0 0)
@@ -407,20 +407,20 @@
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
-			(size 4.5 4.5)
-			(drill 4.3)
+			(size 2.2 2.2)
+			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "9c247d37-d11b-4550-b706-032807c0d8b5")
+			(uuid "1e25f913-1afb-40b4-93b9-e85a9c5442f6")
 		)
 		(embedded_fonts no)
 	)
-	(footprint "kbd_Hole:m2_Spacer_Hole"
+	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
 		(uuid "5857ccb4-00bc-4aa5-97f3-e1120359c349")
 		(at 130.96886 105.370401)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
-		(property "Reference" "H8"
+		(property "Reference" "H7"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
 			(uuid "0cb4bde8-9c14-4e48-ac62-cd6324f2ad54")
@@ -442,7 +442,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -454,7 +454,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -480,18 +480,18 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "a9df218b-0915-4ebd-8fef-c41c1ea9392b")
+			(uuid "de09b974-6a63-452a-bf4b-aca0e2638c98")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 2.3 0)
+			(end 2.45 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "c4098c2b-1bfd-428a-af6b-8c998b426eec")
+			(uuid "89e5ad93-c622-4a02-8c0c-19e2f2b85487")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0.3 0 0)
@@ -506,14 +506,14 @@
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
-			(size 4.5 4.5)
-			(drill 4.3)
+			(size 2.2 2.2)
+			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "c066a5cc-42f2-482f-96d9-e3fbeec4e3c6")
+			(uuid "f7de4479-a929-49f2-baf4-a3bcfaac12cf")
 		)
 		(embedded_fonts no)
 	)
-	(footprint "kbd_Hole:m2_Spacer_Hole"
+	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
 		(uuid "6d81a42e-866f-4de2-849d-f63dd7b52b50")
 		(at 83.34382 67.270369)
@@ -541,7 +541,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -553,7 +553,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -579,18 +579,18 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "3ea5ef73-a499-4d70-afda-f59409f1159a")
+			(uuid "6b6d24b2-224b-4870-9a26-c0507e413bdf")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 2.3 0)
+			(end 2.45 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "07c3f0ce-89c1-4c27-b88d-7b4196e0a30f")
+			(uuid "ba1bbedd-cf43-4b5e-9c8e-639190ee87f3")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0.3 0 0)
@@ -605,14 +605,14 @@
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
-			(size 4.5 4.5)
-			(drill 4.3)
+			(size 2.2 2.2)
+			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "52151bf7-56c5-4892-a4e0-33d0f17665b6")
+			(uuid "4634b7f7-5dca-4ea0-9abc-352d643f78b1")
 		)
 		(embedded_fonts no)
 	)
-	(footprint "kbd_Hole:m2_Spacer_Hole"
+	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
 		(uuid "b3f519d2-aa30-44cf-b181-b30f535177a7")
 		(at 159.543884 67.270369)
@@ -640,7 +640,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -652,7 +652,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -678,18 +678,18 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "643479c1-28e5-4ded-9121-25dd8fe26e4b")
+			(uuid "2f717cfd-3c15-4736-a3fe-3c0a38b22ed7")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 2.3 0)
+			(end 2.45 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "8c01ccc5-ff13-401b-868a-94b18655e102")
+			(uuid "8bb0fa53-20b7-4085-9c85-3d3284f66dff")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0.3 0 0)
@@ -704,14 +704,14 @@
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
-			(size 4.5 4.5)
-			(drill 4.3)
+			(size 2.2 2.2)
+			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "19e492f4-a996-45bb-a9cc-1de21d430dc4")
+			(uuid "bae54cc9-3131-4c50-912d-bcfa51fbad89")
 		)
 		(embedded_fonts no)
 	)
-	(footprint "kbd_Hole:m2_Spacer_Hole"
+	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
 		(uuid "b9d6b395-016d-44e8-80fe-e1d37222f40c")
 		(at 92.868828 123.229791)
@@ -739,7 +739,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -751,7 +751,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -777,18 +777,18 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "e40bdc06-1ced-478a-8d4e-408fb80380c9")
+			(uuid "5de5e568-66e3-4d32-a912-5bb6f13b1510")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 2.3 0)
+			(end 2.45 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "595ad17e-5d94-4166-a05d-4a2a268cc764")
+			(uuid "192b1d11-ca0c-4f55-b54a-71c2e02f8da6")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0.3 0 0)
@@ -803,14 +803,14 @@
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
-			(size 4.5 4.5)
-			(drill 4.3)
+			(size 2.2 2.2)
+			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "f11d5e65-5ecf-495b-8ecb-3ba3fab07e86")
+			(uuid "92257740-0704-4c2a-b5e5-e9f02f4d88ce")
 		)
 		(embedded_fonts no)
 	)
-	(footprint "kbd_Hole:m2_Spacer_Hole"
+	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
 		(uuid "c61c9467-85e6-4c60-95ba-f6522ac66ee7")
 		(at 169.068892 123.825104)
@@ -838,7 +838,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -850,7 +850,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -876,18 +876,18 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "91770406-2890-494f-a237-1f92a17672b5")
+			(uuid "f30bdba3-11cb-424c-8070-907bade8ab52")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 2.3 0)
+			(end 2.45 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "2862bd69-ca51-466c-a13c-a50d3991dc29")
+			(uuid "bb932157-772f-4f28-bd74-4e36260eacc3")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0.3 0 0)
@@ -902,10 +902,10 @@
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
-			(size 4.5 4.5)
-			(drill 4.3)
+			(size 2.2 2.2)
+			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "6139fd4c-af87-433d-87ba-5cf59766f5d8")
+			(uuid "dd9ab342-eeee-43b4-9b83-14325b8fe66e")
 		)
 		(embedded_fonts no)
 	)
