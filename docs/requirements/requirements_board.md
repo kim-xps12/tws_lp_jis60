@@ -53,7 +53,6 @@
 
 - ファームウェアのベースとしてZMK Firmwareを用いること
 - ファームウェア書き換えによってキーマップの変更ができること
-  - **実装**: ZMK Studio（WebHID経由、USB接続時に利用可能）を採用。VIAはQMK向けのため、ZMKでは非対応
 - （参考）
     - ZMK Firmware公式ページ: https://zmk.dev/docs
     - ZMK Studio: https://zmk.studio/
