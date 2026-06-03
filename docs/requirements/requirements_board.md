@@ -55,4 +55,3 @@
 - ファームウェア書き換えによってキーマップの変更ができること
 - （参考）
     - ZMK Firmware公式ページ: https://zmk.dev/docs
-    - ZMK Studio: https://zmk.studio/
