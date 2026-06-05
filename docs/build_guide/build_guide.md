@@ -164,7 +164,7 @@
 1. XIAO が基板と平行になっていることを確認し，**対角の1ピンずつ仮はんだ** して位置を固定します．傾いていたらはんだを溶かして修正します．
 1. xiao背面のBAT端子と基板端面キャッスルホールを半田付けします．例えば以下の動画が参考になります．他にも様々なやり方があるので「xiao 背面　半田付け」で検索し，自身にあった方法を見つけてみてください．
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PIEX10VkBPM?si=V588D3B9gkODbcqt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+https://www.youtube.com/watch?v=PIEX10VkBPM
 
 掲載を快諾いただいた[kay(keyFreaks)](https://www.youtube.com/@LiNEA.keyFreaks)様ありがとうございました！
 
