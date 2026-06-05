@@ -1,0 +1,59 @@
+# ビルドガイドを GitHub Pages へ自動デプロイする。
+# main への push（ガイド関連ファイル変更時）と手動実行で動作する。
+# 事前に GitHub の Settings > Pages > Build and deployment > Source を
+# 「GitHub Actions」に設定しておくこと。
+name: Deploy build guide to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/build_guide/**"
+      - "mkdocs.yml"
+      - "requirements.txt"
+      - ".github/workflows/deploy-docs.yml"
+  workflow_dispatch:
+
+# Pages へのデプロイに必要な権限
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同時実行を1本に制限（後発の実行を優先しつつ走行中は中断しない）
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build site
+        run: mkdocs build --strict
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
