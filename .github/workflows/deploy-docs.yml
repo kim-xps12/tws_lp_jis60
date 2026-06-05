@@ -1,4 +1,4 @@
-# ビルドガイドを GitHub Pages へ自動デプロイする。
+# ビルドガイド（Astro Starlight）を GitHub Pages へ自動デプロイする。
 # main への push（ガイド関連ファイル変更時）と手動実行で動作する。
 # 事前に GitHub の Settings > Pages > Build and deployment > Source を
 # 「GitHub Actions」に設定しておくこと。
@@ -9,8 +9,11 @@ on:
     branches: [main]
     paths:
       - "docs/build_guide/**"
-      - "mkdocs.yml"
-      - "requirements.txt"
+      - "src/**"
+      - "scripts/**"
+      - "astro.config.mjs"
+      - "package.json"
+      - "package-lock.json"
       - ".github/workflows/deploy-docs.yml"
   workflow_dispatch:
 
@@ -20,7 +23,7 @@ permissions:
   pages: write
   id-token: write
 
-# 同時実行を1本に制限（後発の実行を優先しつつ走行中は中断しない）
+# 同時実行を1本に制限（走行中は中断しない）
 concurrency:
   group: pages
   cancel-in-progress: false
@@ -31,21 +34,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-node@v4
         with:
-          python-version: "3.x"
-          cache: pip
+          node-version: 20
+          cache: npm
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: npm ci
 
-      - name: Build site
-        run: mkdocs build --strict
+      - name: Build site (sync + astro build)
+        run: npm run build
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: dist
 
   deploy:
     needs: build

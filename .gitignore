@@ -18,7 +18,11 @@ fp-info-cache
 .vscode/
 copilot_work/
 
-# MkDocs local build output
-site/
+# Astro / Starlight（ビルドガイドサイト）
+node_modules/
+dist/
+.astro/
+# scripts/sync-content.mjs が生成する Starlight 用コンテンツ（ソースは docs/build_guide/）
+src/content/docs/
 
 .DS_Store
