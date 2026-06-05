@@ -1,22 +1,34 @@
 # tws_lp_jis60
 
-ここに宣材画像
+<!-- TODO: 完成写真を追加 -->
 
 ## About
 
-WIP
+JIS配列・ロープロファイル・完全無線の左右分割60%キーボードです。
 
 ## Concept
 
-WIP
+[sphh jp v2 (a bit keys)](https://abitkeys.com/sphhjp/build_v2.html) のHHKB-likeなJIS配列を分割化したコンセプトを継承し、完全無線化とロープロファイル化を加えた設計です。
+
+- JIS 60%配列（ISOエンター、矢印キー付き）
+- 完全無線（PC接続も左右間もBLE）
+- Kailh Choc v2 互換ホットスワップ
+- PCBサンドイッチ構造
+- ZMK Firmware によるキーマップ変更
+- XIAO nRF52840 搭載
+
+設計の詳細は設計者の note 記事を参照してください: [JIS配列でロープロファイルな完全無線の左右分割キーボードを作った話](https://note.com/b_sky_lab/n/n9fbacc2c5264)
 
 ## How to Build
 
-WIP
+ビルドガイドは [docs/build_guide.md](docs/build_guide.md) を参照してください。
+
+ファームウェア（ZMKシールドモジュール）は [ar-kr/tws_lp_shield_module](https://github.com/ar-kr/tws_lp_shield_module) で管理されています。
 
 ## Where to Get
 
-(WIP) Booth shop
+<!-- TODO: Booth頒布開始後にリンクを追加 -->
+準備中
 
 ## License
 
