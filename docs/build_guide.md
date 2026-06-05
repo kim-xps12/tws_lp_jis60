@@ -95,7 +95,8 @@
 | XIAO nRF52840 | 2 | [shop.yushakobo](https://shop.yushakobo.jp/products/11442) |
 | Kailh Choc v2 互換キースイッチ | 70 | 例:  [shop.yushakobo](https://shop.yushakobo.jp/products/9681) |
 | Kailh Choc v2 用キーキャップ | 1セット | 国内ではJIS刻印・このキー数構成での既製品が見つけにくい。3Dプリント自作も選択肢 |
-| リポバッテリー | 2 | 左右1個ずつ。**TBD**: 推奨容量・寸法・コネクタ形状 |
+| リポバッテリー | 2 | [せんごくネット通販](https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-5GHG) |
+| PHコネクタ ベース付ポスト トップ型 2P | 2 | [せんごくネット通販](https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=2DK2-SDD8) |
 | USB Type-C ケーブル | 1 | ファーム書き込み時に使用。データ通信対応のもの |
 | 両面テープ | 適量 | リポバッテリーの固定用 |
 ### 2.3 必要工具
