@@ -168,6 +168,11 @@
 
 掲載を快諾いただいた[kay(keyFreaks)](https://www.youtube.com/@LiNEA.keyFreaks)様ありがとうございました！
 
+私が実際に半田付けした様子は次図の通りです．
+
+![xiao背面半田付けイメージ](images/xiao_bat_soldering.png)
+
+**また，C1パッドは実験・拡張用です．無視して問題ありません．**
 
 ### 4.4 リポバッテリー用コネクタの取り付け
 
