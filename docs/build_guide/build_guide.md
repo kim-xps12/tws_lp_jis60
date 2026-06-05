@@ -60,38 +60,40 @@
 作業を始める前に、キットに含まれているもの／別途用意が必要なものを確認します。
 
 ### 2.1 キット同梱物
-本キットにはメイン基板およびトップ/ボトムプレートの計6枚の基板が含まれています．
-![キット同梱物](images/02_kit_contents.jpg)
-<!-- TBD: 2-A キット同梱物の集合写真 -->
+本キットには6枚の基板と2個のバッテリカバーの計8つの部品が含まれています．詳細を次表および次図に示します．
 
-> **TBD**: Booth頒布キットの正式な同梱内容が確定次第、以下の表を更新します。
+| 部品 | 数量 |
+|---|---|
+| トッププレート（左） | 1 |
+| トッププレート（右） | 1 |
+| メイン基板（左） | 1 |
+| メイン基板（右） | 1 |
+| ボトムプレート（左） | 1 |
+| ボトムプレート（右） | 1 |
+| バッテリカバー（左右共通） | 2 |
 
-| 部品 | 数量 | 備考 |
-|---|---|---|
-| 左手側 本体基板 | 1 | — |
-| 右手側 本体基板 | 1 | — |
-| トッププレート（左） | 1 | — |
-| トッププレート（右） | 1 | — |
-| ボトムプレート（左） | 1 | — |
-| ボトムプレート（右） | 1 | — |
+![キット同梱物](images/kit_included.drawio.png)
+
 
 実際にキットを開封したら上記の数が揃っているか確認し、不足があれば購入元へご連絡ください。
 
 ### 2.2 別途用意するもの
 
-| 部品 | 数量 | 備考 |
+本キットを製作するためには，以下の部品を別途ご用意いただく必要があります．
+
+| 部品 | 数量 | 購入先・備考 |
 |---|---|---|
 | 1N4148W ダイオード | 96個 | [shop.yushakobo](https://shop.yushakobo.jp/products/a0800di-02-100) |
 | Kailh Choc ホットスワップソケット | 70個 | [shop.yushakobo](https://shop.yushakobo.jp/products/a01ps?_pos=2&_sid=8127579c4&_ss=r&variant=37665172553889) |
-| ネジ M2 x 4mm | 28本 | [shop.yushakobo](https://shop.yushakobo.jp/products/a0800s2?variant=37665432502433) |
+| スリムヘッドネジ M2 x 4mm | 28本 | [shop.yushakobo](https://shop.yushakobo.jp/products/a0800s2?variant=37665432502433) |
 | 丸スペーサ M2 x 5mm | 28本 | [shop.yushakobo](https://shop.yushakobo.jp/products/a0800c2?variant=37665435156641) |
 | XIAO nRF52840 | 2 | [shop.yushakobo](https://shop.yushakobo.jp/products/11442) |
-| Kailh Choc v2 互換キースイッチ | 70 | 例:  [shop.yushakobo](https://shop.yushakobo.jp/products/9681) |
-| Kailh Choc v2 用キーキャップ | 1セット | 国内ではJIS刻印・このキー数構成での既製品が見つけにくい。3Dプリント自作も選択肢 |
-| リポバッテリー | 2 | [せんごくネット通販](https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-5GHG) |
-| PHコネクタ ベース付ポスト トップ型 2P | 2 | [せんごくネット通販](https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=2DK2-SDD8) |
+| Kailh Choc v2 互換キースイッチ | 70 | 例:  [shop.yushakobo](https://shop.yushakobo.jp/products/9681)（お好みのスイッチをお使いください） |
+| Kailh Choc v2 互換対応キーキャップ | 1セット | 例: CORSAIR PBT DOUBLE-SHOT CH-9911040-JP （お好みのキーキャップをお使いください）|
+| リチウムイオンポリマー電池 3.7V 300mAh | 2 | [せんごくネット通販](https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-5GHG) |
+| PHコネクター ベース付ポスト トップ型 2P B2B-PH-K-S | 2 | [秋月電子通商](https://akizukidenshi.com/catalog/g/g112802/) |
 | USB Type-C ケーブル | 1 | ファーム書き込み時に使用。データ通信対応のもの |
-| 両面テープ | 適量 | リポバッテリーの固定用 |
+| 両面テープ | 適量 | リポバッテリーの固定用，例: [(amazon)3M スコッチ はがせる 透明 両面テープ](https://amzn.asia/d/07dSZtd4) |
 ### 2.3 必要工具
 
 ![必要工具](images/02_tools.jpg)
