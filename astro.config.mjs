@@ -10,6 +10,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'tws_lp_jis60',
+      customCss: ['./src/styles/custom.css'],
       description:
         'JIS配列・ロープロファイル・完全無線の左右分割60%キーボード tws_lp_jis60 のビルドガイド',
       // 日本語UI

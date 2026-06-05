@@ -1,0 +1,15 @@
+/* ビルドガイド本文の見た目調整 */
+
+/*
+ * build_guide.md 内の YouTube 埋め込みは固定サイズの生 <iframe>
+ * （width=560 height=315）で書かれている。ソースは変更しない方針のため、
+ * ここでレスポンシブ化する。横幅いっぱい＋16:9 のアスペクト比で高さを自動算出し、
+ * 縦に潰れる問題を解消する。
+ */
+.sl-markdown-content iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  border-radius: 0.5rem;
+}
