@@ -88,6 +88,10 @@
 
 | 部品 | 数量 | 備考 |
 |---|---|---|
+| 1N4148W ダイオード | 96個 | [shop.yushakobo](https://shop.yushakobo.jp/products/a0800di-02-100) |
+| Kailh Choc ホットスワップソケット | 70個 | [shop.yushakobo](https://shop.yushakobo.jp/products/a01ps?_pos=2&_sid=8127579c4&_ss=r&variant=37665172553889) |
+| ネジ M2 x 4mm | 28本 | [shop.yushakobo](https://shop.yushakobo.jp/products/a0800s2?variant=37665432502433) |
+| 丸スペーサ M2 x 5mm | 28本 | [shop.yushakobo](https://shop.yushakobo.jp/products/a0800c2?variant=37665435156641) |
 | XIAO nRF52840 | 2 | 左右1個ずつ。秋月電子・スイッチサイエンス等で入手可能 |
 | Kailh Choc v2 互換キースイッチ | 70 | 設計者推奨は [Kailh White Rain](https://shop.yushakobo.jp/products/9681)（遊舎工房） |
 | Kailh Choc v2 用キーキャップ | 1セット | 国内ではJIS刻印・このキー数構成での既製品が見つけにくい。3Dプリント自作も選択肢 |
