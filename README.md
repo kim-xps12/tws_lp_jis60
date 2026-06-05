@@ -1,6 +1,6 @@
 # tws_lp_jis60
 
-<!-- TODO: 完成写真を追加 -->
+![完成品の写真](docs/build_guide/images/overview_ver_corsair.png)
 
 ## About
 
