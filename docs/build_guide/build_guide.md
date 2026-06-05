@@ -301,7 +301,7 @@ xiaoのLEDが点灯または点滅したら成功です．
 
 これにて本体の組み立ては完成です！お疲れ様でした．
 
-![組み立て完了](asm_completed.jpeg)
+![組み立て完了](images/asm_completed.jpeg)
 
 ## 6. ファームウェア（ZMK）
 
