@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "tws_lp_jis60 ビルドガイドの Astro Starlight サイト",
+  "description": "Tws-lp-jis60 ビルドガイドの Astro Starlight サイト",
   "scripts": {
     "sync": "node scripts/sync-content.mjs",
     "dev": "npm run sync && astro dev",

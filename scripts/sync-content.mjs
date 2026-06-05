@@ -57,7 +57,7 @@ function extractTitle(lines) {
     }
     if (lines[i].trim() !== '') break; // H1 より前に本文が来たら探索終了
   }
-  return 'tws_lp_jis60 ビルドガイド';
+  return 'Tws-lp-jis60 ビルドガイド';
 }
 
 // GitHub アラート（[!TYPE] で始まる引用ブロック）を Starlight アサイドへ変換
@@ -99,7 +99,7 @@ async function main() {
   const frontmatter = [
     '---',
     `title: ${JSON.stringify(title)}`,
-    'description: JIS配列・ロープロファイル・完全無線の左右分割60%キーボード tws_lp_jis60 のビルドガイド',
+    'description: JIS配列・ロープロファイル・完全無線の左右分割60%キーボード Tws-lp-jis60 のビルドガイド',
     '---',
     '',
   ].join('\n');
