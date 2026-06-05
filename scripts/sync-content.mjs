@@ -26,6 +26,25 @@ const ALERT_MAP = {
   CAUTION: 'danger',
 };
 
+// 単独行の YouTube URL を、レスポンシブな埋め込み iframe へ変換する。
+// （ソースの markdown には URL だけ残し、サイトでは動画として埋め込む。
+//  サイズは src/styles/custom.css が 16:9 で制御する）
+function convertYoutube(lines) {
+  const re =
+    /^https?:\/\/(?:www\.)?(?:youtube\.com\/watch\?v=|youtu\.be\/)([\w-]+)/;
+  return lines.map((line) => {
+    const m = line.trim().match(re);
+    if (!m) return line;
+    const id = m[1];
+    return (
+      `<iframe src="https://www.youtube.com/embed/${id}" ` +
+      `title="YouTube video player" loading="lazy" ` +
+      `allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ` +
+      `referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    );
+  });
+}
+
 // 先頭 H1 を抜き出して frontmatter title にし、本文から取り除く
 function extractTitle(lines) {
   for (let i = 0; i < lines.length; i++) {
@@ -71,6 +90,7 @@ async function main() {
 
   const title = extractTitle(lines);
   lines = convertAlerts(lines);
+  lines = convertYoutube(lines);
 
   let body = lines.join('\n');
   // 画像参照を Astro が最適化できる相対パスへ正規化（images/ → ./images/）
