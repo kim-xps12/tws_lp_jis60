@@ -2,10 +2,10 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
-// GitHub Pages（プロジェクトサイト）は https://kim-xps12.github.io/tws_lp_jis60/ で公開される。
+// GitHub Pages（プロジェクトサイト）は https://b-sky-lab.github.io/tws_lp_jis60/ で公開される。
 // そのため site + base を設定する。
 export default defineConfig({
-  site: 'https://kim-xps12.github.io',
+  site: 'https://b-sky-lab.github.io',
   base: '/tws_lp_jis60/',
   integrations: [
     starlight({
@@ -21,7 +21,7 @@ export default defineConfig({
         {
           icon: 'github',
           label: 'GitHub',
-          href: 'https://github.com/kim-xps12/tws_lp_jis60',
+          href: 'https://github.com/b-sky-lab/tws_lp_jis60',
         },
       ],
       // 単一ガイドのため、左サイドバーは1ページのみ。本文の節は右側の目次で辿れる。
