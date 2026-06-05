@@ -6,7 +6,7 @@
 ## 0. 本ガイドについて
 
 - 対象キット: `tws_lp_jis60`（JIS配列・ロープロファイル・完全無線・左右分割60%キーボード）
-- 設計: [ar-kr/tws_lp_jis60](https://github.com/ar-kr/tws_lp_jis60)
+- 設計: [ar-kr/tws_lp_jis60](https://github.com/ar-kr/tws_lp_jis60), B-SKY Lab
 - 想定読者: 本キットを購入した、はんだ付け経験のある方
 - 前提知識: 表面実装はんだ付けの基本、PCの基本操作
 - ライセンス: 本キットは CC-BY-SA-4.0、本ガイドは（**TBD**: ガイド本体のライセンス）
