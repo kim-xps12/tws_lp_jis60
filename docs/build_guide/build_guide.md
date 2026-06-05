@@ -7,6 +7,7 @@
 - 想定読者: はんだ付け経験のある方
 - 前提知識: 表面実装はんだ付けの基本、PCの基本操作
 - ライセンス: 本キットおよびガイドは CC-BY-SA-4.0でライセンスされています
+- 本ガイドの一部販売リンクにはAmazonアソシエイト・リンクが含まれます。
 
 
 > [!CAUTION]
@@ -93,27 +94,21 @@
 | リチウムイオンポリマー電池 3.7V 300mAh | 2 | [せんごくネット通販](https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-5GHG) |
 | PHコネクター ベース付ポスト トップ型 2P B2B-PH-K-S | 2 | [秋月電子通商](https://akizukidenshi.com/catalog/g/g112802/) |
 | USB Type-C ケーブル | 1 | ファーム書き込み時に使用。データ通信対応のもの |
-| 両面テープ | 適量 | リポバッテリーの固定用，例: [(amazon)3M スコッチ はがせる 透明 両面テープ](https://amzn.asia/d/07dSZtd4) |
+| 両面テープ | 適量 | リポバッテリーの固定用，例: [(amazon)3M スコッチ はがせる 透明 両面テープ](https://amzn.to/4dMHgQM) |
 ### 2.3 必要工具
 
-![必要工具](images/02_tools.jpg)
-<!-- TBD: 2-C 必要工具一式 -->
 
 | 工具 | 用途・備考 |
 |---|---|
-| はんだごて | 温度調整式が望ましい。ILS型の極細小手先を推奨 |
-| はんだ | Sn60/Pb40 か Sn63/Pb37、φ0.6mm前後（鉛フリーでも可） |
-| フラックス | ペーストまたは液体。SMD作業を快適にする |
-| ピンセット | SMD部品をつまむ先細タイプ |
-| ニッパー | リードカット等 |
-| こて先クリーナー | スポンジ／金属たわし |
-| ドライバー | ケース組立用。M2ネジに対応する精密プラスドライバー |
-| テスター | 導通確認用。なくても作業可能だがトラブル時に重宝 |
-| マスキングテープ | 部品仮固定用 |
-
-> **TBD**: B-4 推奨はんだごて設定温度、推奨はんだ・フラックスの具体的な商品例
-
----
+| はんだごて | 温度調整式 ＋ ILS型の極細小手先を推奨．例: [秋月電子通商, 温度調整機能付USB接続はんだこて T65](https://akizukidenshi.com/catalog/g/g118315/) + [秋月電子通商, 替こて先 T65用 ILS](https://akizukidenshi.com/catalog/g/g118318/) |
+| はんだ | 0.6mm径程度を推奨．例: [秋月電子通商, スズ60％ 鉛入りはんだ Φ0.6mm](https://akizukidenshi.com/catalog/g/g130184/) |
+| こて台 | 例: [秋月電子通商, こて台 FH300-81](https://akizukidenshi.com/catalog/g/g114458/) |
+| ドライバー | 例: [秋月電子通商, DM-60 精密ドライバーセット](https://akizukidenshi.com/catalog/g/g118343/) |
+| テスター | 例: [秋月電子通商, デジタルマルチメーター DT83B](https://akizukidenshi.com/catalog/g/g114310/) |
+| フラックス | ペン型フラックスを推奨．例: [Amazon, ホーザン H-722-P](https://amzn.to/3S7GFAF) |
+| ピンセット | 例: [Amazon, HOZAN P-880](https://amzn.to/4g7HiUG) |
+| ニッパー | 例: [Amazon, ANEX No.280](https://amzn.to/4uQkpJX) |
+| マスキングテープ | 部品の仮固定用 例: [Amazon 3M M40J-18](https://amzn.to/4e0B5Hx)|
 
 ## 3. 作業前の確認
 
