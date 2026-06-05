@@ -3,7 +3,7 @@
 ## 0. 本ガイドについて
 
 - 対象キット: `tws_lp_jis60`（JIS配列・ロープロファイル・完全無線・左右分割60%キーボード）
-- 設計: [ar-kr/tws_lp_jis60](https://github.com/ar-kr/tws_lp_jis60), B-SKY Lab
+- 設計: [b-sky-lab/tws_lp_jis60](https://github.com/b-sky-lab/tws_lp_jis60), B-SKY Lab
 - 想定読者: はんだ付け経験のある方
 - 前提知識: 表面実装はんだ付けの基本，PCの基本操作
 - ライセンス: 本キットおよびガイドは CC-BY-SA-4.0でライセンスされています
@@ -305,7 +305,7 @@ xiaoのLEDが点灯または点滅したら成功です．
 
 ## 6. ファームウェア（ZMK）
 
-本キットのファームウェアは [ZMK Firmware](https://zmk.dev/docs) をベースに，本キーボード専用のシールドモジュール [ar-kr/tws_lp_shield_module](https://github.com/ar-kr/tws_lp_shield_module) として開発されています．
+本キットのファームウェアは [ZMK Firmware](https://zmk.dev/docs) をベースに，本キーボード専用のシールドモジュール [b-sky-lab/tws_lp_shield_module](https://github.com/b-sky-lab/tws_lp_shield_module) として開発されています．
 
 書き込みには次のものを用意してください．
 
@@ -315,7 +315,7 @@ xiaoのLEDが点灯または点滅したら成功です．
 
 ### 6.1 ファームウェア（uf2）の入手
 
-コンパイル済みのファームウェアは [ar-kr/tws_lp_shield_module のリリースページ](https://github.com/ar-kr/tws_lp_shield_module/releases) から入手できます．最新リリースの Assets から，以下の3つのファイルをダウンロードしてください．
+コンパイル済みのファームウェアは [b-sky-lab/tws_lp_shield_module のリリースページ](https://github.com/b-sky-lab/tws_lp_shield_module/releases) から入手できます．最新リリースの Assets から，以下の3つのファイルをダウンロードしてください．
 
 | ファイル名 | 用途 |
 | --- | --- |
@@ -325,7 +325,7 @@ xiaoのLEDが点灯または点滅したら成功です．
 
 > **注意**: 左手用・右手用でファイルが異なります．左右を取り違えると正しく動作しないため，書き込み時はファイル名をよく確認してください．
 >
-> 自分でキーマップをカスタムしてビルドしたい場合は，[ar-kr/tws_lp_shield_module](https://github.com/ar-kr/tws_lp_shield_module) リポジトリをforkしてご利用ください．
+> 自分でキーマップをカスタムしてビルドしたい場合は，[b-sky-lab/tws_lp_shield_module](https://github.com/b-sky-lab/tws_lp_shield_module) リポジトリをforkしてご利用ください．
 
 ### 6.2 ファームウェアの書き込み
 
@@ -427,8 +427,8 @@ XIAO がブートローダーモードに入らないと，uf2ファイルを書
 
 #### 本プロジェクト
 
-- 設計リポジトリ: [ar-kr/tws_lp_jis60](https://github.com/ar-kr/tws_lp_jis60)
-- ZMKシールドモジュール: [ar-kr/tws_lp_shield_module](https://github.com/ar-kr/tws_lp_shield_module)
+- 設計リポジトリ: [b-sky-lab/tws_lp_jis60](https://github.com/b-sky-lab/tws_lp_jis60)
+- ZMKシールドモジュール: [b-sky-lab/tws_lp_shield_module](https://github.com/b-sky-lab/tws_lp_shield_module)
 - 設計者note: [JIS配列でロープロファイルな完全無線の左右分割キーボードを作った話](https://note.com/b_sky_lab/n/n9fbacc2c5264)
 - 設計者X(Twitter): [@eternalfriend17](https://x.com/eternalfriend17)
 
@@ -450,7 +450,7 @@ XIAO がブートローダーモードに入らないと，uf2ファイルを書
 #### 本キット（tws_lp_jis60）
 
 - ライセンス: **CC-BY-SA-4.0**（Creative Commons Attribution-ShareAlike 4.0 International）
-- 詳細: [リポジトリのLICENSE](https://github.com/ar-kr/tws_lp_jis60/blob/main/LICENSE)
+- 詳細: [リポジトリのLICENSE](https://github.com/b-sky-lab/tws_lp_jis60/blob/main/LICENSE)
 
 PCB設計データに OPL_Kicad_Library（CC-BY-SA-4.0）から派生したフットプリントが含まれるため，ShareAlike条項により本作も同ライセンスを継承しています．
 
