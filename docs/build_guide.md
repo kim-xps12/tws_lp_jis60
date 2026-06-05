@@ -232,7 +232,12 @@ XIAO nRF52840 は本体基板に **直接はんだ付け** で取り付けます
 
 1. 本体基板の表面、XIAO用フットプリント位置に XIAO を載せます。
 2. XIAO が基板と平行になっていることを確認し、**対角の1ピンずつ仮はんだ** して位置を固定します。傾いていたらはんだを溶かして修正。
-3. 残りのピンをはんだ付けします。1ピンずつ間隔を空けながら付けると熱が一点に溜まらず作業しやすいです。
+4. xiao背面のBAT端子と基板端面キャッスルホールを半田付けします。例えば以下の動画が参考になります。他にも様々なやり方があるので「xiao 背面　半田付け」で検索し、自身にあった方法を見つけてみてください。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PIEX10VkBPM?si=V588D3B9gkODbcqt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+
+掲載を快諾いただいた[kay(keyFreaks)](https://www.youtube.com/@LiNEA.keyFreaks)様ありがとうございました！
+
 
 
 #### 安全上の注意（再掲）
