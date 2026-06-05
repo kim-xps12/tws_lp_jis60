@@ -1,0 +1,9 @@
+[submodule "pcb_data/kicad_library/external/OPL_Kicad_Library"]
+	path = pcb_data/kicad_library/external/OPL_Kicad_Library
+	url = https://github.com/kim-xps12/OPL_Kicad_Library.git
+[submodule "pcb_data/kicad_library/external/KiCAD_FootPrint"]
+	path = pcb_data/kicad_library/external/KiCAD_FootPrint
+	url = https://github.com/kim-xps12/KiCAD_FootPrint.git
+[submodule "pcb_data/kicad_library/external/kleeb"]
+	path = pcb_data/kicad_library/external/kleeb
+	url = https://github.com/kim-xps12/kleeb.git
